@@ -177,7 +177,7 @@
 
   - no changelog
   
-### Render selected pre-glued items that have active MIDI takes and source track instrument to new take without FX
+### Yaunick_Render selected pre-glued items that have active MIDI takes and source track instrument to new take without FX
 
 - Version 1.0 (updated in 24.03.2021)
 
