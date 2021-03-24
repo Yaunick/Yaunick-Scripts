@@ -6,9 +6,7 @@
 # Contact: b.yanushevich@gmail.com
 # Donation: https://paypal.me/yaunick?locale.x=ru_RU
 
-run_defer = False
 if RPR_GetResourcePath: 
-  run_defer = True
   import sys
   def nothing():
     pass
@@ -78,6 +76,5 @@ if RPR_GetResourcePath:
   else:
     RPR_ClearConsole()
     RPR_ShowConsoleMsg('Please instal Python version 3.5 or higher. Error')
-if run_defer == True:
   RPR_defer('nothing')
 

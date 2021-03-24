@@ -12,6 +12,10 @@
 - Version 1.0 (updated in 23.03.2021)
 
   - no changelog
+  
+- Version 1.01 (updated in 24.03.2021)
+
+  - added the ability to adjust the window width for name input
 
 ### Yaunick_INSTALLATION_uninstall all scripts
 

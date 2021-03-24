@@ -1,19 +1,24 @@
 # Update date: 23.03.2021
-# Version: 1.0
+# Version: 1.01
 # Category: Installation
 # Description: Install or update script by name
 # Author: Yaunick
 # Contact: b.yanushevich@gmail.com
 # Donation: https://paypal.me/yaunick?locale.x=ru_RU
 
-run_defer = False
+#------------------------------------------
+
+user_input_width = 600
+
+#------------------------------------------
+
 if RPR_GetResourcePath: 
-  run_defer = True
   import sys
   def nothing():
     pass
   if sys.version_info.major == 3 and sys.version_info.minor >= 5:
-    inputs = RPR_GetUserInputs('User inputs window for entering scripts name to install or reinstall or update', 1, 'Set the script FULL name:,extrawidth=500', '', 1024)
+    inputs = RPR_GetUserInputs('User inputs window for entering scripts name to install or reinstall or update', 1, 
+    'Set the script FULL name:,extrawidth=' + str(user_input_width), '', 1024)
     if inputs[0]:
       if inputs[4] != '' and inputs[4].isspace() != True:
         import urllib.request, os, zipfile
@@ -85,5 +90,4 @@ if RPR_GetResourcePath:
   else:
     RPR_ClearConsole()
     RPR_ShowConsoleMsg('Please instal Python version 3.5 or higher. Error')
-if run_defer == True:
   RPR_defer('nothing')

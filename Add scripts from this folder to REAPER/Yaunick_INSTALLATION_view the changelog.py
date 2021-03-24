@@ -17,5 +17,3 @@ if RPR_GetResourcePath:
     RPR_ClearConsole()
     RPR_ShowConsoleMsg('Please instal Python version 3.5 or higher. Error')
   RPR_defer('nothing')
-else:
-  pass

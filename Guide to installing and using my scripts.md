@@ -371,6 +371,15 @@
 
     > ***Translation into Russian/Перевод для русских.** Этот скрипт позволяет создать живую сетку проекта под темп аудио. Если крутить колесо мыши вверх, курсор перемещается вперед в соответствии с расстоянием от начала айтема до тейк маркера (например тейк маркер удобно поставить на расстоянии одного такта от начала песни). Если крутить колесо мыши вниз, подстраивается сетка проекта и создается темпо маркеры. Скрипт использует автоматическую перемотку к курсору. Этот скрипт нельзя использовать иначе, кроме как на колесе мыши*
 
+- ### **Render selected pre-glued items that have active MIDI takes and source track instrument to new take without FX**
+
+  - This script allows you to deactivate the VSTi by rendering midi takes to a new audio take. FX after the instrument will not be rendered. If there are several midi takes, then they will first be glued into one. The script will not work if there is no instrument on the track, or if there are multiple instruments. FX before the instrument (for example midi FX) will be taken into account when rendering. By default, the script launches a window in which you need to enter the length of the render tail. This can be configured at the beginning of the script, it is also possible to set the instrument to bypass or offline
+  
+	See GIF:
+	https://telegra.ph/Render-selected-pre-glued-items-that-have-active-MIDI-takes-and-source-track-instrument-to-new-take-without-FX-03-24
+  
+	> ***Translation into Russian/Перевод для русских.** Этот скрипт позволяет деактивировать VSTi путем рендеринга миди тейка в новый аудио тейк. Эффекты после инструмента не будут рендерится. Если миди-тейков несколько, то сначала они будут склеены в один. Скрипт не будет работать, если на дорожке нет инструмента или есть несколько инструментов. Эффекты до инструмента (midi-эффекты) будут учтены при рендеринге. По умолчанию скрипт запускает окно, в котором нужно ввести длину хвоста рендеринга. Это можно настроить в начале скрипта, также можно увести инструмент в bypass или offline.*
+
 # **Various**
 
 - ### **Insert FX by name to master track or selected tracks or selected items**

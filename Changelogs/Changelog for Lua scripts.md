@@ -176,6 +176,12 @@
 - Version 1.0 (updated in 12.03.2021)
 
   - no changelog
+  
+### Render selected pre-glued items that have active MIDI takes and source track instrument to new take without FX
+
+- Version 1.0 (updated in 24.03.2021)
+
+  - no changelog
 
 ### Yaunick_Render selected tracks to multichannel track obeying time selection (ignore routing)
 
