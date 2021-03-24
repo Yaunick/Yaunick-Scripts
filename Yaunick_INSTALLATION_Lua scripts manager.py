@@ -13,13 +13,6 @@ if RPR_GetResourcePath():
     import urllib.request, os, zipfile, webbrowser
     from tkinter import *
     
-    root = Tk()
-    root.title("Yaunick_INSTALLATION_Lua scripts manager")
-    x = (root.winfo_screenwidth() - root.winfo_reqwidth()) / 2.3
-    y = (root.winfo_screenheight() - root.winfo_reqheight()) / 2.3
-    root.wm_geometry("+%d+%d" % (x, y))
-    root.attributes("-topmost",True)
-    
     def download_url(url, save_path):
       try:
         with urllib.request.urlopen(url,timeout = 5) as dl_file:
@@ -212,7 +205,13 @@ if RPR_GetResourcePath():
     def open_chang():
       root.destroy()
       webbrowser.open(chang_link, new=2)
-          
+    
+    root = Tk()
+    root.title("Yaunick_INSTALLATION_Lua scripts manager")
+    x = (root.winfo_screenwidth() - root.winfo_reqwidth()) / 2.3
+    y = (root.winfo_screenheight() - root.winfo_reqheight()) / 2.3
+    root.wm_geometry("+%d+%d" % (x, y))
+    root.attributes("-topmost",True)
       
     btn1 = Button(text="Install all scripts that are not in the Action list", background="gray84", foreground="black", 
     activebackground="gray91", width=40, height=1, padx="20", pady="10", font="Arial 12 bold", command=install_all_scripts)

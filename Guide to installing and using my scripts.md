@@ -326,7 +326,7 @@
 
     > ***Translation into Russian/Перевод для русских.** Этот скрипт полностью повторяет функцию из Ableton Live DAW. Нужно выбрать айтемы и скрипт автоматически установит границы лупа + активирует функцию зацикливания из транспорт панели. Повторный запуск скрипта только запускает/отключает функцию зацикливания.*
 
-- ### **Insert =STARTmarker, then =ENDmarkerateditcursor**
+- ### **Insert =START marker, then =END marker at edit cursor**
 
   - This script is needed to set the borders of the render in the "Entire Project" mode. The script inserts “= Start” marker, then “= End” marker, and if there are both markers, it erases them again inserts “= Start” marker. The function is best for setting in Preference in Mouse Modifiers – “Ruler” – “Double click”
 
