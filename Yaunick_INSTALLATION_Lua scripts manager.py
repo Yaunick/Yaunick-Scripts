@@ -208,11 +208,11 @@ if RPR_GetResourcePath():
     
     root = Tk()
     root.title("Yaunick_INSTALLATION_Lua scripts manager")
-    x = (root.winfo_screenwidth() - root.winfo_reqwidth()) / 2.3
-    y = (root.winfo_screenheight() - root.winfo_reqheight()) / 2.3
+    x = (root.winfo_screenwidth() - root.winfo_reqwidth()) / 2.5
+    y = (root.winfo_screenheight() - root.winfo_reqheight()) / 2.8
     root.wm_geometry("+%d+%d" % (x, y))
-    root.attributes("-topmost",True)
-      
+ 
+    
     btn1 = Button(text="Install all scripts that are not in the Action list", background="gray84", foreground="black", 
     activebackground="gray91", width=40, height=1, padx="20", pady="10", font="Arial 12 bold", command=install_all_scripts)
                  
@@ -230,14 +230,15 @@ if RPR_GetResourcePath():
                  
     btn6 = Button(text="View my repository", background="gray65", foreground="black",activebackground="gray78", 
     width=40, height=1, padx="20", pady="10", font="Arial 12 bold", command=open_repo)
-                 
+    
     btn1.pack()
     btn2.pack()
     btn3.pack()
     btn4.pack()
     btn5.pack()
     btn6.pack()
-     
+    
+    root.attributes("-topmost", True)
     root.mainloop()
     
   else:
