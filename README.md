@@ -1,10 +1,10 @@
 ## My Lua Scripts for REAPER DAW
 
-- In order to get my Lua scripts (download and install to Reaper), you need to use my Python script - 
+- In order to get my Lua scripts (download and install to Reaper), you need to use my Python scripts - 
   they must also be loaded into Reaper and run from time to time, 
   depending on what is required. All the details are described in the guide to installing and using scripts
 
-  > ***Translation into Russian/Перевод для русских.** чтобы воспользоваться моими Lua скриптами (загрузить и установить в Reaper), вам нужно использовать мой скрипт на Python - он также должен быть загруженен в Reaper и время от времени запускаться, в зависимости от того, что вам требуется. Все подробности описаны в гайде по установке и использованию скриптов.* 
+  > ***Translation into Russian/Перевод для русских.** чтобы воспользоваться моими Lua скриптами (загрузить и установить в Reaper), вам нужно использовать мои скрипты на Python - они также должны быть загруженен в Reaper и время от времени запускаться, в зависимости от того, что вам требуется. Все подробности описаны в гайде по установке и использованию скриптов.* 
 
 
 - If you have questions, or noticed bugs, or want to request new features, please contact me by mail:
