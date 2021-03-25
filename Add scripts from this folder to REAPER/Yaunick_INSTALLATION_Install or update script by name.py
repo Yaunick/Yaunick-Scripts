@@ -32,19 +32,27 @@ if RPR_GetResourcePath:
               with open(save_path, 'wb') as out_file:
                 out_file.write(dl_file.read())
                 bool = True
-          except:
+          except Exception:
             bool = False
           return bool
-                      
-        main_path = RPR_GetResourcePath() + '/Scripts/Yaunick-scripts'
-        if not os.path.exists(main_path):
-          os.mkdir(main_path)
-      
+          
+        new_str = inputs[4].rstrip()
+        new_str = new_str.lstrip()
+        
+        if new_str[len(new_str)-5 : len(new_str)] == '/edit': 
+          main_path = RPR_GetResourcePath() + '/Scripts/Yaunick-edited-scripts'
+          if not os.path.exists(main_path):
+            os.mkdir(main_path)
+          new_str = new_str[0 : len(new_str)-5]
+          bool_edited = True
+        else:
+          main_path = RPR_GetResourcePath() + '/Scripts/Yaunick-scripts'
+          if not os.path.exists(main_path):
+            os.mkdir(main_path)
+          bool_edited = False
         if not os.path.exists(main_path + '/file.zip'):
           if download_url("https://www.dropbox.com/s/nld95hmulu5rdtu/For%20adding%20in%20REAPER.zip?dl=1", main_path + '/file.zip') == True:   
             
-            new_str = inputs[4].rstrip()
-            new_str = new_str.lstrip() 
             if new_str[0 : 8] == 'Script: ':
               new_str = new_str[8 : len(new_str)]
             if new_str[len(new_str)-4 : len(new_str)] != '.lua':
@@ -63,6 +71,19 @@ if RPR_GetResourcePath:
 
             if bool_fnd == 1:
               zip.extract(new_str, main_path)
+              if bool_edited == True:
+              
+                g = 0
+                cn = 0
+                while g != 1:
+                  cn = cn + 1
+                  edit_count = '_edited ' + str(cn) + '.lua'
+                  if not os.path.exists(main_path + '/' + new_str[0 : len(new_str)-4] + edit_count):
+                    new_str_2 = new_str[0 : len(new_str)-4] + edit_count
+                    g = 1
+                    
+                os.rename(main_path + '/' + new_str, main_path + '/' + new_str_2)
+                new_str = new_str_2
               
               if new_str[0 : 19] != 'Yaunick_MIDIEditor_':
                 RPR_AddRemoveReaScript(1, 0, main_path + '/' + new_str, 1)

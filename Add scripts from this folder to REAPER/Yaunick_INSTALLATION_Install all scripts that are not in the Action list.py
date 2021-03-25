@@ -27,7 +27,7 @@ if RPR_GetResourcePath:
             with open(save_path, 'wb') as out_file:
               out_file.write(dl_file.read())
               bool = True
-        except:
+        except Exception:
           bool = False
         return bool
                     
