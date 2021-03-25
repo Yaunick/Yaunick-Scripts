@@ -25,8 +25,6 @@ if RPR_GetResourcePath():
       
     link_scripts = "https://www.dropbox.com/s/nld95hmulu5rdtu/For%20adding%20in%20REAPER.zip?dl=1"
     repo_link = "https://github.com/Yaunick/Yaunick-Scripts"
-    guide_link = "https://github.com/Yaunick/Yaunick-Scripts/blob/main/Guide%20to%20installing%20and%20using%20my%20scripts.md"
-    chang_link = "https://github.com/Yaunick/Yaunick-Scripts/blob/main/Changelogs/Changelog%20for%20Lua%20scripts.md"
     
     def main_path_yan():
       main_path = RPR_GetResourcePath() + '/Scripts/Yaunick-scripts'
@@ -197,14 +195,6 @@ if RPR_GetResourcePath():
     def open_repo():
       root.destroy()
       webbrowser.open(repo_link, new=2)
-      
-    def open_guide():
-      root.destroy()
-      webbrowser.open(guide_link, new=2)
-    
-    def open_chang():
-      root.destroy()
-      webbrowser.open(chang_link, new=2)
     
     root = Tk()
     root.title("Yaunick_INSTALLATION_Lua scripts manager")
@@ -213,30 +203,22 @@ if RPR_GetResourcePath():
     root.wm_geometry("+%d+%d" % (x, y))
  
     
-    btn1 = Button(text="Install all scripts that are not in the Action list", background="gray84", foreground="black", 
-    activebackground="gray91", width=40, height=1, padx="20", pady="10", font="Arial 12 bold", command=install_all_scripts)
+    btn1 = Button(text="Install all scripts that are not in the Action list", background="gray82", foreground="black", 
+    activebackground="gray86", width=40, height=1, padx="20", pady="10", font="Arial 12 bold", command=install_all_scripts)
                  
-    btn2 = Button(text="Install or update script by name", background="gray81", foreground="black", activebackground="gray85",
+    btn2 = Button(text="Install or update script by name", background="gray78", foreground="black", activebackground="gray84",
     width=40, height=1, padx="20", pady="10", font="Arial 12 bold", command=install_script_by_name)     
                  
-    btn3 = Button(text="Uninstall all scripts from Action list", background="gray77", foreground="black", activebackground="gray85", 
+    btn3 = Button(text="Uninstall all scripts from the Action list", background="gray72", foreground="black", activebackground="gray79", 
     width=40, height=1, padx="20", pady="10", font="Arial 12 bold", command=uninstall_all_scripts)
                  
-    btn4 = Button(text="View Guide to using all Lua scripts", background="gray73", foreground="black", activebackground="gray83",
-    width=40, height=1, padx="20", pady="10", font="Arial 12 bold", command=open_guide)
-                 
-    btn5 = Button(text="View changelog for all Lua scripts", background="gray69", foreground="black", activebackground="gray80", 
-    width=40, height=1, padx="20", pady="10", font="Arial 12 bold", command=open_chang)
-                 
-    btn6 = Button(text="View my repository", background="gray65", foreground="black",activebackground="gray78", 
+    btn4 = Button(text="View my repository", background="gray66", foreground="black",activebackground="gray74", 
     width=40, height=1, padx="20", pady="10", font="Arial 12 bold", command=open_repo)
     
     btn1.pack()
     btn2.pack()
     btn3.pack()
     btn4.pack()
-    btn5.pack()
-    btn6.pack()
     
     root.attributes("-topmost", True)
     root.mainloop()

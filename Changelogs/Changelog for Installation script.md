@@ -7,3 +7,7 @@
 
   - no changelog
 
+- Version 1.01 (updated in 25.03.2021)
+
+  - removed links to the Guide and the changelog
+
