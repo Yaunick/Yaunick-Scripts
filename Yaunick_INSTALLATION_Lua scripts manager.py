@@ -212,7 +212,7 @@ if RPR_GetResourcePath():
     btn3 = Button(text="Uninstall all scripts from the Action list", background="gray72", foreground="black", activebackground="gray79", 
     width=40, height=1, padx="20", pady="10", font="Arial 12 bold", command=uninstall_all_scripts)
                  
-    btn4 = Button(text="View my repository", background="gray66", foreground="black",activebackground="gray74", 
+    btn4 = Button(text="View my repository", background="gray68", foreground="black",activebackground="gray76", 
     width=40, height=1, padx="20", pady="10", font="Arial 12 bold", command=open_repo)
     
     btn1.pack()
