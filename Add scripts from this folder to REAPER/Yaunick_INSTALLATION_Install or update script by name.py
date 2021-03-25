@@ -1,4 +1,4 @@
-# Update date: 23.03.2021
+# Update date: 26.03.2021
 # Version: 1.01
 # Category: Installation
 # Description: Install or update script by name
