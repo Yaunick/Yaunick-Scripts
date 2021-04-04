@@ -27,8 +27,7 @@
 
 - See information here with screenshots and GIFs!!!
 
-  <details> 
-  See Screenshots and GIFs
+  <details="See Screenshots and GIFs"> 
   https://telegra.ph/How-to-download-install-all-my-scripts-03-09
   </details> 
   
