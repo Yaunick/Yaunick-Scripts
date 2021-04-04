@@ -27,10 +27,8 @@
 
 - See information here with screenshots and GIFs!!!
 
-  <details> 
-	<summary>See Screenshots and GIFs</summary>
-	https://telegra.ph/How-to-download-install-all-my-scripts-03-09
-  </details> 
+  See Screenshots and GIFs</summary>
+  https://telegra.ph/How-to-download-install-all-my-scripts-03-09
   
   > ***Translation into Russian/Перевод для русских.** Смотреть подробную информацию по установке моих скриптов, для этого перейти по ссылке выше*
 
