@@ -82,12 +82,20 @@
 - Version 1.0 (updated in 12.03.2021)
 
   - no changelog
+ 
+- Version 1.01 (updated in 13.05.2021)
+
+  - added the ability to create a sidechain using reacomp
 
 ### Yaunick_Create send track or create sends from selected track to existed track
 
 - Version 1.0 (updated in 12.03.2021)
 
   - no changelog
+
+- Version 1.01 (updated in 13.05.2021)
+
+  - added the ability to create a sidechain using reacomp
 
 ### Yaunick_Decrease all first identical sends from selected tracks at once
 
