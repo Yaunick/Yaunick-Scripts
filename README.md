@@ -6,11 +6,11 @@
 
   > ***Translation into Russian/Перевод для русских.** чтобы воспользоваться моими Lua скриптами (загрузить и установить в Reaper), вы можете использовать мои скрипты на Python - они также должны быть загруженен в Reaper и время от времени запускаться, в зависимости от того, что вам требуется. Все подробности описаны в гайде по установке и использованию скриптов. Нажмите на гайд прямо в Github, и тогда он откроется.* 
 
-- ***If you want to install the scripts manually and not use the synchronization system with new scripts and the script removal system, you can download all my scripts from this link
+- **If you want to install the scripts manually and not use the synchronization system with new scripts and the script removal system, you can download all my scripts from this link**
  
   https://www.dropbox.com/s/nld95hmulu5rdtu/For%20adding%20in%20REAPER.zip?dl=1 
   
-  ***and add them once to Reaper. However, in the future this may not be very convenient and there is a risk of being wrong.
+  **and add them once to Reaper. However, in the future this may not be very convenient and there is a risk of being wrong.**
 
   > ***Translation into Russian/Перевод для русских.** Если вы хотите установить скрипты вручную и не использовать систему синхронизации с новыми скриптами и систему удаления скриптов, вы можете скачать все мои скрипты по ссылке выше и добавить их один раз в Reaper. Однако в будущем это может быть не очень удобно, и есть риск ошибиться.* 
 
