@@ -20,7 +20,7 @@
   Кроме того, я не работаю на других системах, кроме Windows, хотя скрипты должны компилироваться в других ОС. 
   Скрипты из категории «Мышь» должны быть назначены в Mouse modifiers, для другого использования они не подходят.* 
 
-# **Installation scripts**
+# **Installation scripts** (via Python)
 
 - See information here with screenshots and GIFs!!!
 
