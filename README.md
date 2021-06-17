@@ -2,17 +2,9 @@
 
 - In order to get my Lua scripts (download and install to Reaper), you can use my Python scripts - 
   they must also be loaded into Reaper and run from time to time, 
-  depending on what is required. All the details are described in the guide to installing and using scripts. Click on the guide directly in Github and then the instruction will open
+  depending on what is required. Also you can download all scripts directly from the link and add manually every time. All the details are described in the guide to installing and using scripts. Click on the guide directly in Github and then the instruction will open
 
-  > ***Translation into Russian/Перевод для русских.** чтобы воспользоваться моими Lua скриптами (загрузить и установить в Reaper), вы можете использовать мои скрипты на Python - они также должны быть загруженен в Reaper и время от времени запускаться, в зависимости от того, что вам требуется. Все подробности описаны в гайде по установке и использованию скриптов. Нажмите на гайд прямо в Github, и тогда он откроется.* 
-
-- **If python scripts do not work correctly or you want to install the scripts manually and not use the synchronization system with new scripts and the script removal system, and you understand what you are doing, you can download all my scripts from this link**
- 
-  https://www.dropbox.com/s/nld95hmulu5rdtu/For%20adding%20in%20REAPER.zip?dl=1 
-  
-  **and add them once to Reaper. However, in the future this may not be very convenient and there is a risk of being wrong.**
-
-  > ***Translation into Russian/Перевод для русских.** Если скрипты на Python работают некорректно или вы хотите установить скрипты вручную и не использовать систему синхронизации с новыми скриптами и систему удаления скриптов, и вы понимаете что делаете, вы можете скачать все мои скрипты по ссылке выше и добавить их один раз в Reaper. Однако в будущем это может быть не очень удобно, и есть риск ошибиться.* 
+  > ***Translation into Russian/Перевод для русских.** чтобы воспользоваться моими Lua скриптами (загрузить и установить в Reaper), вы можете использовать мои скрипты на Python - они также должны быть загруженен в Reaper и время от времени запускаться, в зависимости от того, что вам требуется. Также вы можете скачивать все скрипты прямо по ссылке и каждый раз добавлять вручную. Все подробности описаны в гайде по установке и использованию скриптов. Нажмите на гайд прямо в Github, и тогда он откроется.* 
 
 - If you have questions, or noticed bugs, or want to request new features, please contact me by mail:
 

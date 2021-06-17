@@ -28,6 +28,16 @@
   https://telegra.ph/How-to-download-install-all-my-scripts-03-09
   
   > ***Translation into Russian/Перевод для русских.** Смотреть подробную информацию по установке моих скриптов, для этого перейти по ссылке выше*
+  
+# **Installation scripts** (manual way)
+
+- If python scripts do not work correctly or you want to install the scripts manually and not use the synchronization system with new scripts and the script removal system, and you understand what you are doing, you can download all  my scripts from this link
+
+  https://www.dropbox.com/s/nld95hmulu5rdtu/For%20adding%20in%20REAPER.zip?dl=1
+
+  and add them to Reaper every time. However, in the future this may not be very convenient and there is a risk of being wrong.
+
+  > ***Translation into Russian/Перевод для русских. Если скрипты на Python работают некорректно или вы хотите установить скрипты вручную и не использовать систему синхронизации с новыми скриптами и систему удаления скриптов, и вы понимаете что делаете, вы можете скачивать все мои скрипты по ссылке выше и добавлять их каждый раз в Reaper. Однако в будущем это может быть не очень удобно, и есть риск ошибиться.
 
 # **Customize scripts**
 
